@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  position: relative;
+}
+#app {
+  width: 60%;
+  height: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+h1 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+}
+h2 {
+  margin: 20px 0;
+}
+#value-table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+#value-table thead th {
+  background-color: #f0f0f0;
+}
+#value-table th {
+  width: 25%;
+}
+#value-table th:nth-child(2) {
+  width: 50%;
+}
+#value-table th,
+#value-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+}
+#value-add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.delete-btn {
+  color: red;
+  background-color: transparent;
+}
+textarea {
+  width: 100%;
+  min-height: 250px;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+#id {
+  flex: 1;
+  min-width: 80px;
+}
+#value {
+  flex: 5;
+  margin-right: 20px;
+  min-width: 120px;
+}
+#add-btn {
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+#apply-btn,
+#json-apply-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
